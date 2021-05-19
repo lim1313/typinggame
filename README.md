@@ -20,7 +20,7 @@
 - HTML
 
 
-- 첫 화면
+- 
 
 ![image](https://user-images.githubusercontent.com/83012943/118841494-52cae080-b903-11eb-9b4b-93406f50b2c5.png)
 
