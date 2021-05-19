@@ -14,3 +14,8 @@
 - JAVASCRIPT
 - CSS
 - HTML
+
+![image](https://user-images.githubusercontent.com/83012943/118840670-92dd9380-b902-11eb-91d5-f944cbe3ecce.png)
+
+![image](https://user-images.githubusercontent.com/83012943/118841353-38910280-b903-11eb-9e9f-f1cef9093229.png)
+
