@@ -1,0 +1,169 @@
+:root{
+  /*color*/
+  --white-color: rgba(245, 246, 250,1);
+  --white-light-color: rgba(245, 246, 250,.7);
+  --orange-color: rgba(249, 202, 36,.7);
+  --gray-color: rgba(83, 92, 104,.7);
+}
+
+*{
+  margin:0;
+}
+
+ul{
+  padding-left: 0;
+}
+
+li{
+  list-style: none;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+
+.frame{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 600px;
+  background-color: var(--white-light-color);
+  border: 1px solid var(--gray-color);
+  border-radius: 10px;
+}
+
+.frame header{
+  width: 100%;
+  background-color: var(--orange-color);
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.quizBox{
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.quizText{
+  width: 200px;
+  padding: 20px 40px;
+  font-size: 50px;
+  border: 1px solid var(--white-color);
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgb(200 150 75 / 45%);
+}
+
+.timeScore{
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: var(--orange-color);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.tStyle{
+  font-size: 20px;
+}
+
+.pStyle{
+  font-size: 20px;
+}
+
+.startBox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  margin: 20px 0 30px 0;
+}
+
+.inputBox{
+  height: 30px;
+  font-size: 15px;
+  width: 220px;
+  padding: 0 30px;
+}
+
+.langStart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 125px;
+}
+
+.langBtn{
+    margin-bottom: 10px;
+}
+
+.langBox{
+  display: inline-block;
+  background-color: var(--gray-color);
+  width: 50px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 30px;
+  transition: all 0.1s
+}
+
+.langBox:hover{
+  cursor: pointer;
+  background-color: rgba(109, 105, 106,1.0);
+  transform: scale(1.1);
+}
+
+.startSetBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.startBtn{
+  width: 67px;
+  height: 30px;
+  border: none;
+  background-color: var(--orange-color);
+  border-radius: 10px;
+  font-size: 15px;
+  transition: all 0.1s;
+  margin: 0 5px;
+
+}
+
+.resetBtn{
+  width: 67px;
+  height: 30px;
+  border: none;
+  background-color: rgba(243, 156, 18, .7);
+  border-radius: 10px;
+  font-size: 15px;
+  transition: all 0.1s;
+  margin: 0 5px;
+}
+
+.startBtn:hover{
+  cursor: pointer;
+  background-color: rgba(243, 156, 18, .7);
+  transform: scale(1.1);
+}
+
+.resetBtn:hover{
+  cursor: pointer;
+  background-color: #f39c12;
+  transform: scale(1.1);
+}
