@@ -1,5 +1,7 @@
 # typingGame1
 
+ https://lim1313.github.io/typinggame/game.html
+
 1.주제
 - 미니 타이핑 게임
 
